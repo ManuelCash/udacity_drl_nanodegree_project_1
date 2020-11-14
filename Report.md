@@ -43,6 +43,7 @@ Neural Network Layers used:
 2. Fully Connected Layer -> Input: 64; Output:64 (action size)
 
 Results:
+
 Episode 100	Average Score: 0.18
 Episode 200	Average Score: 1.90
 Episode 300	Average Score: 4.03

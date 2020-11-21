@@ -44,8 +44,10 @@ The task is episodic, and in order to solve the environment.
 
 ## Results:
 
-Episode 100 -> Average Score: 0.18
-Episode 200 -> Average Score: 1.90
+Episode 100	Average Score: 0.18
+
+Episode 200	Average Score: 1.90
+
 Episode 300	Average Score: 4.03
 Episode 400	Average Score: 5.49
 Episode 500	Average Score: 7.13

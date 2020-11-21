@@ -84,6 +84,12 @@ Episode 1900	Average Score: 14.00
 
 Episode 2000	Average Score: 14.38
 
+## Ideas for future work
+
+1. Use raw pixels to train the agent.
+2. [Deep Reinforcement Learning with Double Q-learning](https://arxiv.org/abs/1509.06461)
+3. [Dueling Network Architectures for Deep Reinforcement Learning](https://arxiv.org/abs/1511.06581)
+4. [Prioritized Experience Replay](https://arxiv.org/abs/1511.05952)
 
 
 

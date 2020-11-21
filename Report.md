@@ -1,6 +1,6 @@
-Project Report
+# Project Report
 
-Problem solved:
+## Problem solved:
 A reward of +1 is provided for collecting a yellow banana, and a reward of -1 is provided for collecting a blue banana.  Thus, the goal of the agent is to collect as many yellow bananas as possible while avoiding blue bananas.  
 
 The state space has 37 dimensions and contains the agent's velocity, along with ray-based perception of objects around agent's forward direction.  Given this information, the agent had to learn how to best select actions.  Four discrete actions are available, corresponding to:
@@ -11,15 +11,15 @@ The state space has 37 dimensions and contains the agent's velocity, along with 
 
 The task is episodic, and in order to solve the environment.
 
-INFO:unityagents:
-'Academy' started successfully!
-Unity Academy name: Academy
+## INFO:unityagents:
+### 'Academy' started successfully!
+### Unity Academy name: Academy
         Number of Brains: 1
         Number of External Brains : 1
         Lesson number : 0
         Reset Parameters :
 		
-Unity brain name: BananaBrain
+## Unity brain name: BananaBrain
         Number of Visual Observations (per agent): 0
         Vector Observation space type: continuous
         Vector Observation space size (per agent): 37
@@ -28,21 +28,21 @@ Unity brain name: BananaBrain
         Vector Action space size (per agent): 4
         Vector Action descriptions: , , , 
 
-Parameters used:
+## Parameters used:
         n_episodes (int): 2000 -> maximum number of training episodes
         max_t (int): 1000 -> maximum number of timesteps per episode
         eps_start (float): 1.0 -> starting value of epsilon, for epsilon-greedy action selection
         eps_end (float): 0.01 -> minimum value of epsilon
         eps_decay (float): 0.998 -> multiplicative factor (per episode) for decreasing epsilon
 
-Neural Network Layers used:
+## Neural Network Layers used:
 1. Fully Connected Layer -> Input: 37 (state size); Output: 64
 2. Fully Connected Layer -> Input: 64; Output:64
 3. Fully Connected Layer -> Input: 64; Output:64
 2. Fully Connected Layer -> Input: 64; Output:64
 2. Fully Connected Layer -> Input: 64; Output:64 (action size)
 
-Results:
+## Results:
 
 Episode 100 -> Average Score: 0.18
 Episode 200 -> Average Score: 1.90
